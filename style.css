@@ -41,18 +41,27 @@
 .banner-text button{
     margin-top: 30px;
 }
+      /* feature flower section */
 .feature-section{
     text-align: center;
+    margin-top: 80px;
+}
+.feature-section h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.feature-section p{
+    color: #757575;
 }
 .feature-image{
     display: flex;
-    margin-top: 70px;
+    margin: 70px 100px ;
 }
 .costom-image{
-    background-color: bisque ;
+    background-color: rgb(229, 220, 210) ;
     border-radius: 250px 250px 0 0;
     align-items: center;
-    margin: 30px;
+    margin: 30px 20px;
     width: 400px;
     height: 450px;
 }
@@ -62,10 +71,10 @@
     margin-top: 100px;
 }
 .costom-image-2{
-    background-color: rgb(57, 187, 113) ;
+    background-color: rgb(159, 196, 175) ;
     border-radius: 250px 250px 0 0;
     align-items: center;
-    margin: 30px;
+    margin: 30px 20px;
     width: 400px;
     height: 450px;
 }
@@ -75,10 +84,10 @@
     margin-top: 100px;
 }
 .costom-image-3{
-    background-color: rgb(71, 50, 119) ;
+    background-color: rgb(129, 186, 186) ;
     border-radius: 250px 250px 0 0;
     align-items: center;
-    margin: 30px;
+    margin: 30px 20px;
     width: 400px;
     height: 450px;
 }
@@ -91,4 +100,19 @@
 .card-text{
     font-size: 20px;
     font-weight: 500;
+}
+/* informetion-section */
+.informetion-section{
+    display: flex;
+    background-color: rgb(220, 213, 203);
+    margin: 60px 120px;
+}
+.information-row{
+    text-align: center;
+    padding: 70px 40px;
+}
+.information-row h3{
+    color: #585354;
+    margin-top: 15px;
+
 }
