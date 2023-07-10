@@ -141,3 +141,26 @@
 .discount-massage button{
     margin-top: 30px;
 }
+.offer-item img{
+    width: 280px;
+}
+
+ /* instragram section */
+.instragram{
+    text-align: center;
+    margin: 100px 100px 50px 100px;
+}
+.instragram h1{
+    font-size: 35px;
+}
+.instragram p{
+    color: #757575;
+    margin-top: 18px;
+}
+.instragram-images{
+    margin-top: 50px;
+}
+.instragram-images img{
+    margin: 8px;
+    width: 280px;
+}
