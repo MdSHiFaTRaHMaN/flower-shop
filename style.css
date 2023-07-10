@@ -116,3 +116,28 @@
     margin-top: 15px;
 
 }
+   /* Discount Section */
+.offer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eae4e4;
+    padding: 50px 300px;
+}
+.discount-massage{
+    text-align: center;
+    max-width: 550px;
+    margin-top: 150px;
+}
+.discount-massage h1{
+    font-size: 32px;
+}
+.discount-massage h1 span{
+    color: red;
+}
+.discount-massage p{
+    color:#585354;
+    margin-top: 15px;
+}
+.discount-massage button{
+    margin-top: 30px;
+}
