@@ -6,12 +6,13 @@
 /* --navber---Bonous Opsonal section */
  header{
     position: sticky;
-    background: #e8e2e2;
+    top: 0;
+    background: #f1ecec;
     padding: 7px 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: rgb(43, 41, 41) 2px 3px 15px 4px;
+    box-shadow: rgb(155, 148, 148) 2px 3px 15px 4px;
  }
  .logo-image{
     width: 55px;
@@ -41,11 +42,9 @@
 
 /* banner section */
 .banner{
-    /* margin-top: 100px; */
     display: flex;
     justify-content: space-between;
     background-color: #e2d9db;
-    /* padding: 150px 170px 0 170px; */
     padding: 15px 170px 0 170px;
 }
 .banner-image img{
@@ -147,26 +146,17 @@
     font-size: 20px;
     font-weight: 500;
 }
-/* informetion-section */
-.informetion-section{
-    display: flex;
-    background-color: rgb(220, 213, 203);
-    margin: 60px 120px;
-}
-.information-row{
-    text-align: center;
-    padding: 70px 40px;
-}
-.information-row h3{
-    color: #585354;
-    margin-top: 15px;
 
-}
-
-/* ================= */
+/* =======Flower Shop / bonous section========== */
 .flower-shop{
     margin: 60px 86px;
     text-align: center;
+}
+.flower-shop h1{
+    font-size: 35px;
+}
+.flower-shop p{
+    color: #585354;
 }
 .product{
     display: flex;
@@ -182,16 +172,36 @@
     text-align: left;
 }
 .single-product {
-    padding: 25px;
-    
+    padding: 25px;  
 }
 .single-product h3{
     font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.single-product h4{
+    margin-top : 7px;
     font-weight: 300;
 }
 .single-product img{
     max-width: 250px;
     border-radius: 20px;
+}
+
+/* informetion-section */
+.informetion-section{
+    display: flex;
+    background-color: rgb(220, 213, 203);
+    margin: 60px 120px;
+}
+.information-row{
+    text-align: center;
+    padding: 70px 40px;
+}
+.information-row h3{
+    color: #585354;
+    margin-top: 15px;
+
 }
 
 
@@ -279,7 +289,7 @@
     border: 1px solid black;
 }
 .add-coupon button{
-    padding: 15px 20px;
+    padding: 13px 20px;
     background-color: #4CAF50;
     color: #fff;
     border: 0;
