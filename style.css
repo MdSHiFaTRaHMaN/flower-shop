@@ -3,20 +3,49 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.btn-primary{
-    color: #fff;
-    background-color: rgb(203, 73, 73);
-    padding: 10px 20px;
-    border: 0;
-    border-radius: 5px;
-    font-size: 18px;
-    font-weight: 700;
-    cursor: pointer;
+/* --navber---Bonous Opsonal section */
+ header{
+    position: sticky;
+    background: #e8e2e2;
+    padding: 7px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(43, 41, 41) 2px 3px 15px 4px;
+ }
+ .logo-image{
+    width: 55px;
+    margin-left: 55px;
 }
+ header h1{
+    margin-left: -305px;
+ }
+ header h1 span{
+    color: #e24d3d;
+ }
+ .navber a{
+    text-decoration: none;
+    padding: 0 7px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.image-icon{
+    width: 30px;
+}
+.icons{
+    margin-right: 20px;
+}
+.icons a img{
+    margin: 0 7px;
+}
+
+/* banner section */
 .banner{
+    /* margin-top: 100px; */
     display: flex;
     justify-content: space-between;
     background-color: #e2d9db;
+    /* padding: 150px 170px 0 170px; */
     padding: 15px 170px 0 170px;
 }
 .banner-image img{
@@ -37,6 +66,23 @@
 .banner-text h1 span{
     font-size: 55px;
     color: red;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 11px 18px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ff6f61;
+    border-radius: 4px;
+    border: 0;
+    outline: none;
+    transform: 0.2s;
+}
+.btn-primary:hover{
+    background: #088178;
+    color: white;
+    border: 0;
 }
 .banner-text button{
     margin-top: 30px;
@@ -116,6 +162,39 @@
     margin-top: 15px;
 
 }
+
+/* ================= */
+.flower-shop{
+    margin: 60px 86px;
+    text-align: center;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.product-details{
+    margin:25px 12px;
+    width: 300px;
+    height: 380px;
+    background: #d2caca;
+    border-radius: 15px;
+    text-align: left;
+}
+.single-product {
+    padding: 25px;
+    
+}
+.single-product h3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.single-product img{
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+
    /* Discount Section */
 .offer-section{
     display: flex;
@@ -144,7 +223,19 @@
 .offer-item img{
     width: 280px;
 }
-
+.classic-btn{
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+.classic-btn:hover{
+    background: #ff6f61;
+}
  /* instragram section */
 .instragram{
     text-align: center;
@@ -184,14 +275,20 @@
     border-radius: 4px;
     outline: none;
 }
+.add-coupon input:hover{
+    border: 1px solid black;
+}
 .add-coupon button{
-    padding: 12px 20px;
+    padding: 15px 20px;
     background-color: #4CAF50;
     color: #fff;
     border: 0;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 10px;
+}
+.add-coupon button:hover{
+    background: #088178;
 }
 .subscribe-section h2{
     font-size: 35px;
@@ -200,4 +297,28 @@
 .subscribe-section p{
     font-weight: 300;
     color: #757575;
+}
+
+/* footer section */
+.footer-section{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin-top: 70px;
+}
+.footer-style{
+    max-width: 600px;
+    padding: 100px 400px;
+}
+.footer-style h1{
+    font-size: 45px;
+    font-weight: 300;
+}
+.footer-style h1 span{
+    color: chocolate;
+
+}
+.footer-style h4{
+    color: #757575;
+    margin-top: 20px;
 }
